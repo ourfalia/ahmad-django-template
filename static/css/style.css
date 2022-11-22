@@ -1,5 +1,28 @@
+/*-------------------------------------colors */
+.bg-color-name-title {
+    background-color: brown;
+}
+.ui-nav-colr-home {
+    background-color: gray;
+}
+.ui-nav-colr-reservation {
+    background-color: rgb(236, 181, 60);
+}
+.ui-nav-colr-menue {
+    background-color: rgb(159, 189, 79);
+}
+.ui-nav-colr-contact {
+    background-color: rgb(44, 157, 233);
+}
+
+/*-------------------------------------headings */
+
 header {
     margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
 }
 
 .logo {
@@ -12,4 +35,48 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 
+}
+
+.name {
+    font-size: 46px;
+    margin-top: 50px;
+    color: gray;
+}
+
+.title {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.nav-container {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+} 
+
+.menue-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menue-item a {
+    width: 100%;
+    text-decoration: none;
+    height: 120px;
+    color: white;
+}
+
+.menue-item a span {
+    padding-top: 20px;
+    display: block;
+    font-size: 26px;
 }
