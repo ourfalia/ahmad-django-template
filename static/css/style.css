@@ -105,6 +105,14 @@ header {
     margin-bottom: 40px;
 }
 
+.three-reasons-icon {
+    font-size: 26px;
+    color: brown;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
 
 /*-------------------------------------special paddings/margins/text */
 
