@@ -1,8 +1,8 @@
 # Arabica Restaurant
 
-[view the live link here](https://arabica-1982.herokuapp.com/)
+[View the live link here](https://arabica-1982.herokuapp.com/)
 <br>
-this website is website of a restaurant that serves Syrian food. The main page has information about the restaurant. The navigation bar is connected to the reservation, menu and contact pages.
+This website is website of a restaurant that serves Syrian food. The main page has information about the restaurant. The navigation bar is connected to the reservation, menu and contact pages.
 <br>
 <img src="static/images/homepage.jpg" alt="image of the main page">
 
