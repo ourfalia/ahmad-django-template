@@ -6,3 +6,9 @@ def get_home(request):
 
 def make_reservation(request):
     return render(request, '../templates/home/reservation.html')
+
+def go_to_menu(request):
+    return render(request, '../templates/home/menu.html')
+
+def go_to_contact(request):
+    return render(request, '../templates/home/contact.html')    
