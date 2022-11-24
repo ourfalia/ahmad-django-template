@@ -7,7 +7,7 @@ This website is website of a restaurant that serves Syrian food. The main page h
 <img src="static/images/homepage.jpg" alt="image of the main page">
 
 ## Features
-The website consist of a main page and several sub pages. On the main page, there is description of the restaurant. There are also clickable links to the reservation, menu and contact pages. The menu can be viewed in the menu page. Contact details are provided in the contact sub-page. And a reservation can be made in the reservation page. 
+The website consist of a main page and several sub pages. On the main page, there is description of the restaurant. There are also clickable links to the reservation, menu and contact pages. The menu can be viewed in the menu page. Contact details are provided in the contact sub-page. And a reservation is supposed to be made in the reservation page. 
 ## Technologies used
 1. HTML
 2. CSS
@@ -21,9 +21,9 @@ The website consist of a main page and several sub pages. On the main page, ther
 10. Elephantsql
 
 ## Testing 
-Manual testing of all the features of the website was deploied and everything looks fuctioning such as the navigation bar, links and forms.
+Manual testing of all the features of the website was deploied and everything looks fuctioning such as the navigation bar and links. However, the reservation system is still not functioning properly. 
 ## Unfixed bugs 
-
+The reservation system is not working due to insufficient time to finish the code.
 
 ## Deployment 
 The site was deployed to Heroku website. 
