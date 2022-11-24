@@ -51,8 +51,23 @@
     </header>
 
     <section class="container-fluid">
-      <div class="">
+      <div>
         <h1 class="section-heading">Book a table</h1>
+      </div>
+      <div class="reservation">
+        <table>
+          {%for item in items %}
+          <tr>
+            <td>{{item.number}}</td>
+            {% if item.booked %}
+            <td>{{"---Booked---"}}</td>
+            {% else %}
+            <td>{{"---Available---"}}</td>
+            {% endif %}
+            <td><button>Book</button></td>
+          </tr>
+          {% endfor %}
+        </table>
       </div>
     </section>
 
